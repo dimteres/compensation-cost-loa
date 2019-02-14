@@ -1,8 +1,9 @@
 # compensation-cost-loa
 Total compensation cost of vehicles in mixed traffic conditions
+
 The methodological approach of calculating the total compensation cost of vehicles in mixed and fully autonomous conditions is based on System Dynamics and Agent Based Modeling.
 The model consists of inputs and outputs.
-Apart from the number of vehicles in each level of automation, the input variables are the frequency, the secerity and the compensation increment due to interaction between vehicles i and j of different levels of automation.
+Apart from the number of vehicles in each level of automation, the input variables are the frequency, the severity and the compensation increment due to interaction between vehicles i and j of different levels of automation.
 As output, the model generates the variable costi which is the compensation cost of vehicles with level of automation i.
 The flow of computations is as follows: each vehicle is examined as a separate entity according to the principles of Agent Based Modelling.
 More specifically, all examined vehicles follow a certain distribution of accident frequency and severity, which leads to a certain number of accidents and their corresponding severity for each vehicle separately.
